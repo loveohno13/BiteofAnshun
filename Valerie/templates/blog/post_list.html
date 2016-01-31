@@ -66,6 +66,18 @@
       </div>
     </div>
     
+
+    <div class="posts">
+      <div class="container">
+        {% for post in posts %}
+            <div class ="post">
+              <h2><a href="">{{post.title}}</a></h2>
+            </div>
+        {% endfor %}
+
+      </div>
+
+    </div>
     <div class="learn-more">
 	    <div class="container">
 		    <div class='row'>
@@ -88,6 +100,9 @@
 		      </div>
 	      </div>
 	  </div>
+
+
+
 	</div>
   </body>
 </html> 
